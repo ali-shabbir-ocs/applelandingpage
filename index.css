@@ -1,0 +1,608 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 100% !important;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1d1d1f;
+
+  width: 100%;
+}
+.logo img {
+  height: 20px;
+  padding-top: 12px;
+}
+.menus {
+  position: relative;
+}
+@media (max-width: 830px) {
+  .menus {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+  }
+  .iphoneimagemob img {
+    width: 100%;
+    height: 100%;
+    margin-top: -28%;
+  }
+  .iphoneimage {
+    display: none;
+  }
+  .airMac1 {
+    background-color: black !important;
+  }
+  .airimagemob img {
+    width: 100%;
+    height: 100%;
+    margin-top: -18%;
+  }
+  .airimage {
+    display: none;
+  }
+  .iphoneimage img {
+    width: 100%;
+  }
+  .macimage img {
+    width: 100%;
+  }
+  .logo {
+    padding: 0px 20px;
+    margin-right: auto;
+  }
+  .logo img {
+    width: 100% !important;
+  }
+  .iconmob img {
+    height: 44px;
+    background-color: #1d1d1f;
+    width: 16px;
+    padding: 0px 20px;
+  }
+  .copyright {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .privacy {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+}
+@media (min-width: 831px) {
+  .iconmob {
+    display: none;
+  }
+  .airimagemob {
+    display: none !important;
+  }
+  .iphoneimagemob img {
+    display: none !important;
+  }
+}
+
+.menus > ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  width: 100%;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
+.icon img {
+  height: 44px;
+  background-color: #1d1d1f;
+  width: 16px;
+  padding: 0px 0px 0px 20px;
+}
+.dropdown {
+  margin-top: 0px;
+  display: none;
+  position: absolute;
+  background-color: #1d1d1f;
+  width: 100%;
+  padding: 40px 50px;
+}
+.firstdrop {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 100%;
+}
+.seconddrop {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 100%;
+}
+.firstdrop ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 0px;
+  list-style: none;
+}
+.seconddrop ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 0px;
+  list-style: none;
+}
+.firstdrop h2 {
+  font-size: 12px;
+}
+.seconddrop h2 {
+  font-size: 12px;
+}
+.firstdrop > ul > li {
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 500;
+  letter-spacing: 0.009em;
+
+  padding-top: 15px;
+}
+.seconddrop > ul > li {
+  font-size: 12px;
+  line-height: 1.33333333;
+  font-weight: 600;
+  letter-spacing: -0.1 em;
+
+  padding-top: 15px;
+}
+.store:hover .dropdown {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buyMac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin-bottom: 10px;
+}
+.buybutton {
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 11px 25px;
+}
+.buybutton:hover {
+  background-color: #06c;
+  color: #f5f5f7;
+}
+#airh1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 10px 0px;
+}
+#airh2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.1428;
+  margin: 0px;
+}
+
+.airbuttons {
+  margin-top: 25px;
+  z-index: 1;
+}
+.airheadings {
+  z-index: 1;
+}
+.learn {
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  background-color: #06c;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 11px 25px;
+  color: #f5f5f7;
+  margin-right: 20px;
+}
+.airMac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.airMac1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.airimage img {
+  margin-top: -7%;
+}
+#iphoneh1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1;
+  color: white;
+  margin: 10px 0px;
+  text-align: center;
+}
+#iphoneh2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.1428;
+  margin: 0px;
+  color: white;
+}
+.iphoneimage img {
+  margin-top: -8.5%;
+}
+.shopiphone {
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  background-color: black;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 11px 25px;
+  color: #06c;
+}
+.shopiphone:hover {
+  background-color: #06c;
+  color: white;
+}
+.grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 10px;
+}
+.grid1 {
+  background-color: black;
+}
+.grid2 {
+  background-color: #f5f5f7;
+}
+.gridh1 {
+  font-size: 40px;
+  color: white;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.gridh2 {
+  font-size: 21px;
+  color: white;
+  z-index: 1;
+  line-height: 1.19;
+  font-weight: 400;
+  margin-top: 0px;
+  text-align: center;
+}
+.learngrid {
+  font-size: 14px;
+  line-height: 1.14648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  background-color: #06c;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 11px 15px;
+  color: #f5f5f7;
+  margin-right: 10px;
+}
+.gridbuttons {
+  display: flex;
+  justify-content: center;
+}
+.buygrid {
+  font-size: 14px;
+  line-height: 1.47648;
+  background-color: black;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 11px 25px;
+  color: #06c;
+}
+.buygrid:hover {
+  background-color: #06c;
+  color: white;
+}
+.grid1image {
+  display: flex;
+  justify-content: center;
+}
+.grid1 img {
+  margin-top: 5px;
+  width: 65%;
+  height: 65%;
+}
+.grid2image img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+.grid2image {
+  margin-top: 40px;
+}
+.grid2h1 {
+  font-size: 40px;
+  color: black;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.grid2h2 {
+  font-size: 21px;
+  color: black;
+  z-index: 1;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  line-height: 1.19;
+  font-weight: 400;
+  text-align: center;
+}
+.grid2h3 {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #6e6e73;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.buygrid2 {
+  font-size: 14px;
+  line-height: 1.47648;
+  background-color: white;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  border: 1px solid #06c;
+  border-radius: 25px;
+  padding: 8px 20px;
+  color: #06c;
+}
+.buygrid2:hover {
+  background-color: #06c;
+  color: white;
+}
+.grid3h1 {
+  display: flex;
+}
+.gridcontent3 {
+  padding-top: 65%;
+}
+.gridcontent3 img {
+  padding-left: 35%;
+  padding-bottom: 10px;
+}
+.gridbuttons3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.grid3 {
+  background-image: url(grid3.jpg);
+  background-size: cover;
+}
+.grid4 {
+  background-color: black;
+}
+.gridcontent4 {
+  text-align: center;
+}
+.gridcontent3 img {
+  padding-bottom: 10px;
+}
+.gridcontent4 img {
+  margin-top: 10%;
+}
+.grid4h1 {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  line-height: 1.19;
+  font-weight: 400;
+  font-size: 21px;
+}
+.background {
+  width: 100%;
+  height: 100%;
+}
+.gridbuttons4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.gridcontent5 {
+  text-align: center;
+}
+
+.gridbuttons5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.grid5 {
+  background-color: #f5f5f7;
+  margin: 0px;
+  padding: 0px;
+}
+.grid5image1 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.grid5image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.grid6 {
+  background-color: #f5f5f7;
+  margin: 0px;
+  padding: 0px;
+}
+.grid6image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.footer1 {
+  margin-top: 20px;
+  background-color: #f5f5f7;
+  border-bottom: 1px solid rgb(0 0 0 / 16%);
+  padding: 10px 40px 10px 10px;
+}
+.text > ul {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3333;
+  letter-spacing: -0.01em;
+  color: rgb(0 0 0 / 56%);
+}
+#f1 a {
+  color: rgb(0 0 0 / 72%);
+}
+#f2 a {
+  color: rgb(0 0 0 / 72%);
+}
+#f5 a {
+  color: rgb(0 0 0 / 72%);
+}
+#f8 a {
+  color: rgb(0 0 0 / 72%);
+}
+.footer2 {
+  display: flex;
+  padding: 20px 40px;
+  background-color: #f5f5f7;
+}
+.f211 {
+  padding-right: 30px;
+}
+.f211 h1 {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  color: rgb(0 0 0 / 72%);
+}
+.f211 ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  color: rgb(0 0 0 / 72%);
+}
+.f211 li {
+  padding: 4px;
+}
+.moreways {
+  padding: 20px 40px;
+  background-color: #f5f5f7;
+  border-bottom: 1px solid rgb(0 0 0 / 16%);
+}
+.moreways h1 {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  font-weight: 500;
+  color: rgb(0 0 0 / 72%);
+}
+.moreways a {
+  color: rgb(0, 102, 204);
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 40px;
+  background-color: #f5f5f7;
+  justify-content: space-between;
+}
+.cp h1 {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  font-weight: 500;
+  color: rgb(0 0 0 / 72%);
+}
+.privacy {
+  padding: 0px;
+}
+.privacy ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  color: rgb(0 0 0 / 72%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.privacy li {
+  border-right: 1px solid rgb(0 0 0 / 72%);
+  padding: 0px 10px;
+}
+.privacy li a {
+  color: rgb(0 0 0 / 72%);
+  text-decoration: none;
+}
+.US h1 {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01;
+  font-weight: 500;
+  color: rgb(0 0 0 / 72%);
+}
